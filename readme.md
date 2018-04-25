@@ -17,7 +17,7 @@ Respecto al funcionamiento y las Rutas:
   * la ruta principal es http://localhost/todolisto_mvc/mainController.php/index en la cual se encuentra el login
     * Los usuarios predefinidos son admin y juanin (ambos sin password)
   * Al ingresar se redirecciona a la ruta http://localhost/todolisto_mvc/mainController.php/tareas en la cual vemos el listado de las tareas existentes y tambíen podemos crear más, indicando un título, una descripción y un estado.
-  * Al ingresar como admin se puede ver la cantidad de tareas de los demás usuario. Se llevará es esta ruta: http://localhost/todolisto_mvc/mainController.php/tareasUsuarios
+  * Al ingresar como admin se puede ver la cantidad de tareas de los demás usuarios. Se llevará es esta ruta: http://localhost/todolisto_mvc/mainController.php/tareasUsuarios
   * Dentro del listado de tareas existe un botón para ver el calendario con las tareas. Nos llevará la ruta: http://localhost/todolisto_mvc/mainController.php/calendario
   * En la tabla, al costado de la tarea, existe un botón dedicado para eliminarla.
   * Al pinchar sobre el hipervinculo en el título de una tarea, se llevará al detalle en una ruta de este tipo: http://localhost/todolisto_mvc/mainController.php/tarea?id= idTarea
